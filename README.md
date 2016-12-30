@@ -6,6 +6,11 @@ A php script to send sms notification using Google calendar and its api
 # Usage
 ./googlecalalert "calendar_id" "subject"
 
+# Pre-requisites on the Google calendar site
+1. Login into the google account which will be used to send notifications
+2. In its google console (https://console.developers.google.com/) add a project and create within it an apikey
+3. On the calendar parameters add your phone number
+
 # Notes
 Script made from : https://developers.google.com/drive/v3/web/quickstart/php
 
